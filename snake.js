@@ -83,7 +83,7 @@ function draw(){
 	
 	ctx.fillStyle = 'white';
 	ctx.font = '45px Changa one';
-	ctx.fillText(score,2*box,1.6*box);
+	ctx.fillText(2*score,2*box,1.6*box);
 	
 	//add new head
 	let newHead = {
